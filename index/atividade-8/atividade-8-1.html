@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/styleatividade-8-1.css">
+    <script src="../js/scriptatividade-8-1.js"></script>
+  <title>Atividade 8 - Questão 1</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="result" readonly>
+    </div>
+    <div class="buttons">
+      <button class="number" onclick="appendNumber(1)">1</button>
+      <button class="number" onclick="appendNumber(2)">2</button>
+      <button class="number" onclick="appendNumber(3)">3</button>
+      <button class="operator" onclick="appendOperator('+')">+</button>
+      <button class="number" onclick="appendNumber(4)">4</button>
+      <button class="number" onclick="appendNumber(5)">5</button>
+      <button class="number" onclick="appendNumber(6)">6</button>
+      <button class="operator" onclick="appendOperator('-')">-</button>
+      <button class="number" onclick="appendNumber(7)">7</button>
+      <button class="number" onclick="appendNumber(8)">8</button>
+      <button class="number" onclick="appendNumber(9)">9</button>
+      <button class="operator" onclick="appendOperator('*')">*</button>
+      <button class="number" onclick="appendNumber(0)">0</button>
+      <button class="number" onclick="appendDecimal()">.</button>
+      <button class="clear" onclick="clearDisplay()">C</button>
+      <button class="operator" onclick="appendOperator('/')">/</button>
+      <button class="equal" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <div class="footer">
+    <a id="blackdefaultbutton" href="../atividade-8.html">Retornar</a>
+</div>
+</body>
+</html>

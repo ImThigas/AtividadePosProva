@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/styleatividade-8-3.css">
+    <script src="../js/scriptatividade-8-3.js"></script>
+  <title>Atividade 8 - Questão 3</title>
+</head>
+<body>
+  <h1>Cadastro de Pessoas</h1>
+
+  <div class="cod">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+    <button onclick="cadastrarPessoa()">Cadastrar Pessoa</button>
+  </div>
+
+  <div class="cod">
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf">
+    <button onclick="cadastrarPessoaFisica()">Cadastrar Pessoa Física</button>
+  </div>
+
+  <div class="cod">
+    <label for="cnpj">CNPJ:</label>
+    <input type="text" id="cnpj">
+    <button onclick="cadastrarPessoaJuridica()">Cadastrar Pessoa Jurídica</button>
+  </div>
+
+  <div class="cod">
+    <h2>Lista de Cadastro</h2>
+    <ul id="cadastro"></ul>
+  </div>
+  <div class="footer">
+    <a id="blackdefaultbutton" href="../atividade-8.html">Retornar</a>
+</div>
+</body>
+</html>
